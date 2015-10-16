@@ -1,4 +1,5 @@
-TASK Animal Choir simulator
+##TASK Animal Choir simulator,
+this is some past job interview task
 
  * Create an Animal Choir simulator (rs_SR: Simulator životinjskog hora)
  *
@@ -18,22 +19,19 @@ TASK Animal Choir simulator
  * Singer group song is represented with a CSV of the group singer sing result in random order.
  *
  * The choir simulator must have implement the following methods:
- *    crescendo - the choir start singing from the least loud singer group, and then are being joined
- *                by more and more loud singer groups until they are singing all together.
- *                The joining is represented with a new line.
- *                Example:
- *                  meow, squeak, bark
- *                  Meow, bark, squeak, Bark, meow
- *                  bark, Meow, MEOW, squeak, BARK, meow, Bark
- *
- *    arpeggio  - the choir singer groups of the same loudness start singing one by one from
- *                the least loud to the loudest
- *                Example:
- *                  meow, squeak, bark
- *                  Meow, Bark
- *                  MEOW, BARK
+    * crescendo - the choir start singing from the least loud singer group, and then are being joined by more and more loud singer groups until they are singing all together. The joining is represented with a new line.
+        * Example:
+            * meow, squeak, bark
+            * Meow, bark, squeak, Bark, meow
+            * bark, Meow, MEOW, squeak, BARK, meow, Bark
 
-THE CODE
+    * arpeggio  - the choir singer groups of the same loudness start singing one by one from the least loud to the loudest
+        * Example:
+            * meow, squeak, bark
+            * Meow, Bark
+            * MEOW, BARK
+
+##THE CODE
 
 Namespace AnimalChoir
 
@@ -48,7 +46,7 @@ Classes and description:
    *Animal voices are randomly represented.
 * CSVexport - a class with one static method createCsv which generate a song file and prints a link to the file on the screen.
 
-execute.php file is an example of using this classes.
+File __execute.php__ file is an example of using this classes.
 
 
 

@@ -1,5 +1,9 @@
 <?php
 
+/**
+*@author Milan Nikolic linkedin.com/in/milan1nikolic
+*/
+
 use AnimalChoir\AnimalGroup;
 use AnimalChoir\Animal;
 use AnimalChoir\Choir;
