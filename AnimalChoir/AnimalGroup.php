@@ -17,10 +17,8 @@ class AnimalGroup{
     }
 
     public function addAnimal(Animal $animal){
-        $newanimal = clone $animal;
-
-        $newanimal->voiceByLoudnessType($this->_loudness);
-        $this->_group[] = $newanimal;
+        $animal->voiceByLoudnessType($this->_loudness);
+        $this->_group[] = $animal;
     }
 
     public function removeAnimal(Animal $animal){

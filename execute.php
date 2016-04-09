@@ -9,9 +9,13 @@ use AnimalChoir\Animal;
 use AnimalChoir\Choir;
 use AnimalChoir\ChoirSimulator;
 
-function __autoload($class_name) {
-    include "{$class_name}.php";
+//autoload
+function autoloadClasses($className) {
+    $file = str_replace('\\',DIRECTORY_SEPARATOR,$className);
+    include "{$file}.php";
 }
+
+spl_autoload_register("autoloadClasses");
 
 #register groups with loudness parameter
 $animalgroup1 = new AnimalGroup(1);
