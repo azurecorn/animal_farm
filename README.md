@@ -1,4 +1,4 @@
-##TASK Animal Choir simulator,
+##TASK Animal Choir simulator
 this is some past job interview task
 
  * Create an Animal Choir simulator (rs_SR: Simulator životinjskog hora)
